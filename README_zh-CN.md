@@ -7,8 +7,8 @@
     <a href="https://goreportcard.com/report/github.com/gonetx">
       <img src="https://img.shields.io/badge/%F0%9F%93%9D%20goreport-A%2B-75C46B">
     </a>
-    <a href="https://gocover.io/github.com/gonetx/ipset">
-      <img src="https://img.shields.io/badge/%F0%9F%94%8E%20gocover-97.8%25-75C46B.svg?style=flat">
+    <a href="https://codecov.io/gh/gonetx/ipset">
+      <img src="https://codecov.io/gh/gonetx/ipset/branch/main/graph/badge.svg?token=05UN78X11O"/>
     </a>
     <a href="https://github.com/gonetx/actions?query=workflow%3ASecurity">
       <img src="https://img.shields.io/github/workflow/status/gofiber/fiber/Security?label=%F0%9F%94%91%20gosec&style=flat&color=75C46B">
