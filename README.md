@@ -3,16 +3,16 @@
   <a href="https://pkg.go.dev/github.com/gonetx/ipset?tab=doc">
     <img src="https://img.shields.io/badge/%F0%9F%93%9A%20godoc-pkg-00ACD7.svg?color=00ACD7&style=flat">
   </a>
-  <a href="https://goreportcard.com/report/github.com/gonetx">
+  <a href="https://goreportcard.com/report/github.com/gonetx/ipset">
     <img src="https://img.shields.io/badge/%F0%9F%93%9D%20goreport-A%2B-75C46B">
   </a>
   <a href="https://codecov.io/gh/gonetx/ipset">
     <img src="https://codecov.io/gh/gonetx/ipset/branch/main/graph/badge.svg?token=05UN78X11O"/>
   </a>
-  <a href="https://github.com/gonetx/actions?query=workflow%3ASecurity">
+  <a href="https://github.com/gonetx/ipset/actions?query=workflow%3ASecurity">
     <img src="https://img.shields.io/github/workflow/status/gofiber/fiber/Security?label=%F0%9F%94%91%20gosec&style=flat&color=75C46B">
   </a>
-  <a href="https://github.com/gonetx/actions?query=workflow%3ATest">
+  <a href="https://github.com/gonetx/ipset/actions?query=workflow%3ATest">
     <img src="https://img.shields.io/github/workflow/status/gofiber/fiber/Test?label=%F0%9F%A7%AA%20tests&style=flat&color=75C46B">
   </a>
   <a>
