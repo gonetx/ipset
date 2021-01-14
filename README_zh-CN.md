@@ -16,6 +16,9 @@
     <a href="https://github.com/gonetx/actions?query=workflow%3ATest">
       <img src="https://img.shields.io/github/workflow/status/gofiber/fiber/Test?label=%F0%9F%A7%AA%20tests&style=flat&color=75C46B">
     </a>
+    <a>
+      <img src="https://counter.gofiber.io/badge/gonetx/ipset">
+    </a>
 </p>
 
 该包是`ipset`工具的`Golang`封装。它使得`Golang`程序更简单地操作`ipset`。
