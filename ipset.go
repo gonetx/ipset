@@ -118,6 +118,7 @@ func Flush(names ...string) error {
 				return err
 			}
 		}
+		return nil
 	}
 	return flushAll()
 }
@@ -149,6 +150,7 @@ func Destroy(names ...string) error {
 				return err
 			}
 		}
+		return nil
 	}
 	return destroyAll()
 }
