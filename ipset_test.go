@@ -62,6 +62,7 @@ func Test_GetMajorVersion(t *testing.T) {
 		{[]byte("ipset v6.29, protocol version: 6"), 6},
 		{[]byte("ipset v7.1, protocol version: 7"), 7},
 		{[]byte("ipset v10.0, protocol version: 10"), 10},
+		{[]byte("Warning: Kernel support protocol versions 6-6 while userspace supports protocol versions 6-7\nipset v7.1, protocol version: 7"), 7},
 	}
 
 	for _, tc := range tt {
