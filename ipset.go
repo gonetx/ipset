@@ -22,6 +22,7 @@ import (
 	"fmt"
 	"io"
 	"os/exec"
+	"regexp"
 )
 
 // Version of current package
@@ -220,11 +221,14 @@ func isSupported() (bool, error) {
 }
 
 func getMajorVersion(version []byte) int {
-	vIndex := bytes.IndexByte(version, 'v')
-	dotIndex := bytes.IndexByte(version, '.')
+	vVer := regexp.MustCompile(" v\\d+(\\.\\d+)+").Find(version)
+	if vVer == nil {
+		return 0
+	}
+	dotIndex := bytes.IndexByte(vVer, '.')
 	var majorVersion int
-	for i := vIndex + 1; i < dotIndex; i++ {
-		if c := version[i]; c >= '0' && c <= '9' {
+	for i := 2; i < dotIndex; i++ {
+		if c := vVer[i]; c >= '0' && c <= '9' {
 			majorVersion = majorVersion*10 + int(c-'0')
 		} else {
 			return 0
